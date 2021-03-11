@@ -1,0 +1,2 @@
+# mini
+Mini project spe
