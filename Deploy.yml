@@ -1,0 +1,9 @@
+---
+- name: Pull and Run doker image of mini project
+  hosts: all
+  tasks:
+    - name: Pull khushboo85/mini
+      docker_image:
+        name: khushalways/minicalc-dockerimage
+        source: pull
+
