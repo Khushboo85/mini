@@ -1,5 +1,5 @@
 ---
-- name: Pull and Run doker image of mini project
+- name: Pull and Run docker image of mini project
   hosts: all
   tasks:
     - name: Pull khushboo85/mini
