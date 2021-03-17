@@ -18,14 +18,14 @@ public class calci {
         Scanner scanner = new Scanner(System.in);
 
         do {
-            System.out.println("Enter the operation that you want to perform");
+            System.out.println("Enter the operation ");
             System.out.print("Press 1 to find square root\nPress 2 to Factorial\nPress 3 to Natural Log\nPress 4 to Power\n" +
                     "Press any other key to exit\nEnter your choice: ");
             int choice;
             try {
                 choice = scanner.nextInt();
             } catch (InputMismatchException error) {
-                System.out.println("Thank you for using the calculator");
+                System.out.println("Thank you");
                 return;
             }
 
@@ -75,7 +75,7 @@ public class calci {
                     System.out.println("Power result is : " + calculator.power(num, num2));
                     break;
                 default:
-                    System.out.println("Thank you for using the calculator");
+                    System.out.println("Thank you");
                     return;
             }
         } while (true);
