@@ -13,7 +13,6 @@ public class calci {
     public calci(){
 
     }
-
     public static void main(String[] args) {
         calci calculator = new calci();
         Scanner scanner = new Scanner(System.in);
@@ -152,7 +151,6 @@ public class calci {
         }finally {
             logger.info("Result of squareRoot is : " + result);
         }
-
         return result;
     }
 }
